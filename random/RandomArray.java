@@ -22,6 +22,7 @@ public abstract class RandomArray {
     }
 
     public static void main(String[] args) {
+		System.out.print("Just add a log!!!");
         int[] array = RandomArray.random(10);
         System.out.print("[");
         for (int i = 0; i < array.length; i++) {
